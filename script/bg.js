@@ -1,5 +1,6 @@
 document.getElementById(`bg-btn`).addEventListener(`click`,function(event){
     event.preventDefault();
-    document.body.classList.toggle(`bg-blue-100`);
-    document.body.classList.toggle(`bg-gray-300`);
+
+    const randomBgColor = Math.floor(Math.random()*16777215).toString(16);
+    document.body.style.backgroundColor = `#${randomBgColor}`;
 })
