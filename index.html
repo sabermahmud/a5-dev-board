@@ -30,7 +30,7 @@
                 <div class="flex items-center gap-6">
                     <div class="flex items-center gap-4 px-3 py-2 bg-blue-50 rounded-full">
                         <a href="#"><img src="assets/checkbox.png" alt=""></a>
-                        <p class="text-xl font-bold">23</p>
+                        <p id="completed-number" class="text-xl font-bold">23</p>
                     </div>
                     <a href="" id="bg-btn"><img src="assets/theme-btn.png" class=" btn p-2 rounded-full" alt=""></a>
                 </div>
@@ -47,7 +47,7 @@
                     </div>
                     <div>
                         <p class="text-sm">Task Assigned </p>
-                        <h2 class="text-xl font-bold">05</h2>
+                        <h2 id="assigned-number" class="text-xl font-bold">05</h2>
                     </div>
                     </div>
                     <div class="flex flex-col lg:flex-row lg:items-center lg:col-span-2 gap-5 bg-gradient-to-r from-blue-600 to-blue-300 p-5 rounded-lg shadow-md">
@@ -71,88 +71,95 @@
                 <!--  -->
                 <hr class="my-5 text-blue-200 border-t-1 border-dashed">
                 <!--  -->
+                <!-- cards container -->
                 <div class="grid grid-cols-3 col-span-3 gap-9 m-5 rounded-lg w-full mx-auto">
+                    <!-- card one -->
                     <div class="card  bg-base-100 shadow-sm">
                     <div class="card-body">
                         <span class=" btn bg-blue-100 text-base p-2 max-w-28">ShopEase</span>
-                        <h2 class="text-lg font-semibold">Fix Mobile Button Issue </h2>
+                        <h2 id="card-1-heading" class="text-lg font-semibold">Fix Mobile Button Issue </h2>
                         <p class="bg-blue-50 p-4 rounded-xl text-base">Debug using Chrome DevTools, check for overlappin</p>
                         <div class="mt-6 flex justify-between items-center">
                         <div>
                             <p class="text-gray-400">Deadline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="card-1-btn" class="btn bg-blue-600 text-white">Completed</button>
                         </div>
                     </div>
                     </div>
+                    <!-- card two -->
                     <div class="card  bg-base-100 shadow-sm">
                     <div class="card-body">
-                        <span class=" btn bg-blue-100 text-base p-2 max-w-28">ShopEase</span>
-                        <h2 class="text-lg font-semibold">Fix Mobile Button Issue </h2>
+                        <span class=" btn bg-blue-100 text-base p-2 max-w-28">CloudSync</span>
+                        <h2 id="card-2-heading" class="text-lg font-semibold">Add Dark Mode </h2>
+                        <p class="bg-blue-50 p-4 rounded-xl text-base">Store the user's preference in localStorage, update CSS variables dynamically,</p>
+                        <div class="mt-6 flex justify-between items-center">
+                        <div>
+                            <p class="text-gray-400">Deadline</p>
+                            <p>21 March 2025</p>
+                        </div>
+                        <button id="card-2-btn" class="btn bg-blue-600 text-white">Completed</button>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- card three -->
+                    <div class="card  bg-base-100 shadow-sm">
+                    <div class="card-body">
+                        <span class=" btn bg-blue-100 text-base p-2 max-w-28">SwiftPay</span>
+                        <h2 id="card-3-heading" class="text-lg font-semibold">Optimize  Home page </h2>
                         <p class="bg-blue-50 p-4 rounded-xl text-base">Debug using Chrome DevTools, check for overlappin</p>
                         <div class="mt-6 flex justify-between items-center">
                         <div>
                             <p class="text-gray-400">Deadline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="card-3-btn" class="btn bg-blue-600 text-white">Completed</button>
                         </div>
                     </div>
                     </div>
+                    <!-- card four -->
                     <div class="card  bg-base-100 shadow-sm">
                     <div class="card-body">
-                        <span class=" btn bg-blue-100 text-base p-2 max-w-28">ShopEase</span>
-                        <h2 class="text-lg font-semibold">Fix Mobile Button Issue </h2>
+                        <span class=" btn bg-blue-100 text-base p-2 max-w-28">Meta</span>
+                        <h2 id="card-4-heading" class="text-lg font-semibold">Add new emoji 🤲 </h2>
                         <p class="bg-blue-50 p-4 rounded-xl text-base">Debug using Chrome DevTools, check for overlappin</p>
                         <div class="mt-6 flex justify-between items-center">
                         <div>
                             <p class="text-gray-400">Deadline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="card-4-btn" class="btn bg-blue-600 text-white">Completed</button>
                         </div>
                     </div>
                     </div>
+                    <!-- card five -->
                     <div class="card  bg-base-100 shadow-sm">
                     <div class="card-body">
                         <span class=" btn bg-blue-100 text-base p-2 max-w-28">ShopEase</span>
-                        <h2 class="text-lg font-semibold">Fix Mobile Button Issue </h2>
+                        <h2 id="card-5-heading" class="text-lg font-semibold">Fix Mobile Button Issue </h2>
                         <p class="bg-blue-50 p-4 rounded-xl text-base">Debug using Chrome DevTools, check for overlappin</p>
                         <div class="mt-6 flex justify-between items-center">
                         <div>
                             <p class="text-gray-400">Deadline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="card-5-btn" class="btn bg-blue-600 text-white">Completed</button>
                         </div>
                     </div>
                     </div>
+                    <!-- card six -->
                     <div class="card  bg-base-100 shadow-sm">
                     <div class="card-body">
                         <span class=" btn bg-blue-100 text-base p-2 max-w-28">ShopEase</span>
-                        <h2 class="text-lg font-semibold">Fix Mobile Button Issue </h2>
+                        <h2 id="card-6-heading" class="text-lg font-semibold">Fix Mobile Button Issue </h2>
                         <p class="bg-blue-50 p-4 rounded-xl text-base">Debug using Chrome DevTools, check for overlappin</p>
                         <div class="mt-6 flex justify-between items-center">
                         <div>
                             <p class="text-gray-400">Deadline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="card  bg-base-100 shadow-sm">
-                    <div class="card-body">
-                        <span class=" btn bg-blue-100 text-base p-2 max-w-28">ShopEase</span>
-                        <h2 class="text-lg font-semibold">Fix Mobile Button Issue </h2>
-                        <p class="bg-blue-50 p-4 rounded-xl text-base">Debug using Chrome DevTools, check for overlappin</p>
-                        <div class="mt-6 flex justify-between items-center">
-                        <div>
-                            <p class="text-gray-400">Deadline</p>
-                            <p>21 March 2025</p>
-                        </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="card-6-btn" class="btn bg-blue-600 text-white">Completed</button>
                         </div>
                     </div>
                     </div>
@@ -166,13 +173,15 @@
                     <p>Activity Log</p>
                     </div>
                     <hr class="my-5 text-blue-200 border-t-1 border-dashed">
+                    <div id="activity-container" class="flex flex-col gap-5 max-h-[500px] overflow-y-auto pr-2">
+                    </div>
                 </div>
             </section>
         </div>
         
     </main>
     <script src="script/bg.js"></script>
-    <script src="script/utilities.js"></script>
     <script src="script/time.js"></script>
+    <script src="script/main.js"></script>
 </body>
 </html>
